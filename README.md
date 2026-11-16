@@ -62,17 +62,7 @@ python -m app.rps
 To run the web app:
 
 ```sh
-# if we have the FLASK_APP=web_app env var in the ".env" file:
-flask run
-
-# Mac OS:
 FLASK_APP=web_app flask run
-
-# Windows OS:
-# ... if `export` doesn't work for you, try `set` instead
-# ... or set FLASK_APP variable via ".env" file
-export FLASK_APP=web_app
-flask run
 ```
 
 To stop the local web server while it is running, press "control+c" from the termal.
