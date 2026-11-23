@@ -33,6 +33,19 @@ conda activate rps-env
 pip install -r requirements.txt
 ```
 
+## Configuration
+
+The stocks functionality requires an AlphaVantage API key. Obtain a premium AlphaVantage API Key (using the [form](https://www.alphavantage.co/support/#api-key) or shared by the prof).
+
+Create a local ".env" file and store your environment variable in there:
+
+```sh
+# this is the ".env" file...
+
+ALPHAVANTAGE_API_KEY="______________"
+```
+
+
 ## Usage
 
 ### Command Line App
@@ -47,7 +60,7 @@ python -m app.my_script
 ```
 
 
-Run the example script:
+Run the RPS game:
 
 ```sh
 python app/rps.py
@@ -56,6 +69,11 @@ python app/rps.py
 python -m app.rps
 ```
 
+Run the stocks dashboard:
+
+```sh
+python -m app.stocks
+```
 
 ### Web App
 
