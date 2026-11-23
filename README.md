@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-some commands here to run our file(s)
+### Command Line App
 
 Run the example script:
 
@@ -55,6 +55,18 @@ python app/rps.py
 # alternatively:
 python -m app.rps
 ```
+
+
+### Web App
+
+To run the web app:
+
+```sh
+FLASK_APP=web_app flask run
+```
+
+To stop the local web server while it is running, press "control+c" from the termal.
+
 
 ## Testing
 
